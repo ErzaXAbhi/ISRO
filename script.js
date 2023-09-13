@@ -25,7 +25,7 @@ blocs.forEach((bloc, index) => {
   if (index === 3) {
     ScrollTrigger.create({
       trigger: bloc,
-      start: "top+=220 center",
+      start: "top+=250 center",
       onEnter: () => {
         bloc.classList.add("active");
       },
