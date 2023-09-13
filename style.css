@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Urbanist:wght@400;500;600;700;800;900&display=swap");
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.home {
+  min-height: 100vh;
+  background: url(./images/isro.jpg) center no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
+.rocket-section {
+  min-height: 2500px;
+  background: #333;
+  color: #f1f1f1;
+  padding-top: 100px;
+}
+
+.bloc {
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  max-width: 800px;
+  padding-bottom: 100px;
+}
+
+.bloc1 {
+  margin-left: 29.9rem;
+}
+
+.bloc2 {
+  transform: translateY(-105px);
+  margin-left: 30rem;
+}
+
+.bloc4 {
+  transform: translateY(290px);
+  margin-top: -31rem;
+  margin-left: 17.5rem;
+}
+
+.bloc5 {
+  transform: translateY(-203px);
+  margin-left: 17.6rem;
+}
+
+.bloc img {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: 70px;
+}
+
+.bloc h2,
+.bloc p {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 50%;
+}
+
+.bloc p {
+  font-size: 18px;
+}
+
+.bloc h2 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;
+  text-align: right;
+  font-size: 30px;
+}
+.bloc4 h2 {
+  padding-right: 10px;
+}
+
+.bloc4 p {
+  padding-left: 10px;
+}
+
+.bloc.active h2,
+.bloc.active p {
+  opacity: 1;
+}
+
+.bottom {
+  min-height: 600px;
+  background: lightsteelblue;
+}
