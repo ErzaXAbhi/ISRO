@@ -54,13 +54,13 @@ body {
 }
 
 .bloc4 {
-  transform: translateY(290px);
-  margin-top: -31rem;
+  transform: translateY(-206px);
+  /* margin-top: -31rem; */
   margin-left: 17.5rem;
 }
 
 .bloc5 {
-  transform: translateY(-203px);
+  transform: translateY(-687px);
   margin-left: 17.6rem;
 }
 
