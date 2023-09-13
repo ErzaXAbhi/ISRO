@@ -20,3 +20,29 @@ gsap.utils.toArray([".bloc2", ".bloc4", ".bloc5"]).forEach((bloc, index) => {
     },
   });
 });
+
+blocs.forEach((bloc, index) => {
+  if (index === 3) {
+    ScrollTrigger.create({
+      trigger: bloc,
+      start: "top+=220 center",
+      onEnter: () => {
+        bloc.classList.add("active");
+      },
+      onLeaveBack: () => {
+        bloc.classList.remove("active");
+      },
+    });
+  }
+
+  ScrollTrigger.create({
+    trigger: bloc,
+    start: "top center+=10%",
+    onEnter: () => {
+      bloc.classList.add("active");
+    },
+    onLeaveBack: () => {
+      bloc.classList.remove("active");
+    },
+  });
+});

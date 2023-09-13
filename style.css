@@ -82,6 +82,10 @@ body {
   font-size: 18px;
 }
 
+.bloc1 p {
+  margin-top: 5rem;
+}
+
 .bloc h2 {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;
@@ -104,4 +108,14 @@ body {
 .bottom {
   min-height: 600px;
   background: lightsteelblue;
+}
+
+@media screen and (max-width: 600px) {
+  .bloc p {
+    font-size: 12px;
+  }
+
+  .bloc h2 {
+    font-size: 13px;
+  }
 }
