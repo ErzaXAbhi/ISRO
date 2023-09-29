@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .home {
+    background-position: 54%;
+  }
+
+  .home h1 {
+    font-size: 1.3rem;
+    margin-left: -5rem;
+  }
+
+  .bloc {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .bloc p {
+    font-size: 8px;
+    display: none;
+  }
+
+  .bloc h2 {
+    font-size: 13px;
+    text-align: center;
+    display: none;
+  }
+
+  .bloc1,
+  .bloc2,
+  .bloc4,
+  .bloc5 {
+    margin-left: 0;
+    transform: translateY(0);
+  }
+
+  .bloc1 p {
+    margin-top: -3rem;
+    margin-left: -12rem;
+  }
+  .bloc2 p {
+    margin-top: -3rem;
+    margin-left: -12rem;
+  }
+  .bloc3 p {
+    margin-top: -3rem;
+    margin-left: -12rem;
+  }
+  .bloc4 p {
+    margin-top: -3rem;
+    margin-left: -12rem;
+  }
+}
